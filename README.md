@@ -117,7 +117,7 @@ The EC2 instance is the resource being monitored. I went with a `t3.micro` on Am
 | Security Group | New - Allow SSH (TCP port 22) from My IP address only |
 | Storage | Default 8 GB gp3 SSD - no changes required |
 
-![EC2 instance Cloudwatch-Demo in Running state](screenshots/01-ec2-instance-running.png)
+![SNS topic cloudwatch-alarm-topic created](screenshots/02-sns-topic-created.png)
 *Figure 1.1 - EC2 instance Cloudwatch-Demo in Running state - Instance ID: i-006955522965f21a7*
 
 ### Step 2 - Create SNS Topic and Email Subscription

@@ -134,12 +134,12 @@ I created a **Standard topic** (not FIFO - order does not matter for alerts) and
 | Endpoint | venkaiahmalli96@gmail.com |
 | All other settings | Left as default - no encryption or delivery policy required |
 
-![SNS topic cloudwatch-alarm-topic created](screenshots/02-sns-topic-created.png)
+
+![SNS subscription pending confirmation](screenshots/03-sns-subscription-pending.png)
 *Figure 2.1 - SNS topic cloudwatch-alarm-topic created successfully*
 
 After the topic was created, I added my email as a subscriber. The status immediately shows `Pending confirmation`.
 
-![SNS subscription pending confirmation](screenshots/03-sns-subscription-pending.png)
 *Figure 2.2 - SNS subscription created - Status: Pending confirmation*
 
 AWS sent the confirmation email to my Gmail within seconds. I opened it and clicked **Confirm subscription**. Until this is done, the subscription is inactive and alarm notifications will not arrive.

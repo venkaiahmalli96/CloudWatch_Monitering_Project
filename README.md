@@ -2,7 +2,7 @@
 
 EC2 CPU alarm and SNS email notification project built on a live AWS account in **eu-west-1 (Ireland)**. The goal was to set up a real monitoring pipeline that automatically detects when an EC2 instance is under heavy CPU load and sends an email alert - without writing a single line of code. Everything was configured through the AWS Console.
 
-This is exactly the kind of Day-2 operations work you do in cloud support roles - setting up alerting so you get notified the moment something goes wrong, rather than finding out from a user report.
+
 
 **Total cost: €0.00 - all resources within AWS Free Tier.**
 

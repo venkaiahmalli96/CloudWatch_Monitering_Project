@@ -149,7 +149,7 @@ AWS sent the confirmation email to my Gmail within seconds. I opened it and clic
 
 Once confirmed, the subscription status updated to `Confirmed` and the topic was ready to receive alarm messages.
 
-![SNS subscription status Confirmed](screenshots/05-sns-subscription-confirmed.png)
+![CPUUtilization metric selected for Cloudwatch-Demo](screenshots/06-cloudwatch-metric-selected.png)
 *Figure 2.4 - SNS subscription status: Confirmed - ready to receive alarm notifications*
 
 ### Step 3 - Create CloudWatch Alarm
